@@ -1,2 +1,2 @@
 # auto-brightness
-Change the Brightness of your Display according to the ambient light.
+Change the Brightness of your Display according to the ambient light intensity.
