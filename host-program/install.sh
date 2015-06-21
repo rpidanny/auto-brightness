@@ -33,3 +33,4 @@ fi
 
 echo "Downloading Node Modules"
 sudo npm install
+git clone https://github.com/node-hid/node-hid.git node_modules/node-hid
