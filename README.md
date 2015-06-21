@@ -6,14 +6,16 @@ Pre Requireents:
  - Node.js
  - ddccontrol
  - xbacklight
+ - i2c-dev
  
-Installing Node.js:
+Installing Dependencies:
 ```text
-sudo apt-get install -y nodejs
+sudo ./INSTALL
 ```
-Installing xbacklight:
+Running Host Programt:
 ```text
-sudo apt-get install -y xbacklight
+sudo ./AUTO-BRIGHTNESS [options]
 ```
-Installing ddccontrol:
-  https://packages.debian.org/sid/utils/ddccontrol
+Options :
+ - serial
+ - hid
