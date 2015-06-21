@@ -10,7 +10,7 @@ Pre Requireents:
  
 Installing Dependencies:
 ```text
-sudo ./INSTALL
+sudo ./install.sh
 ```
 Running Host Programt:
 ```text
