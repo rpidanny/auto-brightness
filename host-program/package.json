@@ -1,0 +1,14 @@
+{
+  "name": "auto-brightness",
+  "version": "1.0.0",
+  "description": "Change the brightness of a Monitor using DDC",
+  "main": "hid.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek Maharjan",
+  "license": "ISC",
+  "dependencies": {
+    "serialport": "^1.7.4"
+  }
+}

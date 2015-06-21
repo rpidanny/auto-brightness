@@ -1,0 +1,11 @@
+#!/bin/bash
+
+sudo modprobe i2c-dev
+if [ $1 == "hid" ]
+then
+	echo "hid"
+	sudo node hid.js
+else
+	echo "serial"
+	sudo node serial.js
+fi
